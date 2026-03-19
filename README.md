@@ -35,4 +35,3 @@ Security notes
 
 The vault password is never stored anywhere. If you forget it, your data is unrecoverable.
 The Argon2 salt is currently static. A production version would generate and persist a random salt per vault.
-This is a personal project built to learn Rust and Tauri. It has not been audited.
